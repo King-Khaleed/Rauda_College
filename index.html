@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rauda College Of Health And Science</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .nav-hidden {
+          display: none;
+      }
+      .nav-visible {
+          display: block;
+      }
+  </style>
+</head>
+<body>
+    
+  <header>
+    <div class="bg-red-500 text-white text-center p-4">
+        <ul class="flex justify-around items-center">
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Student's Portal</a></li>
+            <li><a href="#">Apply Now</a></li>
+        </ul>
+    </div>
+
+    <div class="flex justify-between items-center p-4 w-full h-[150px] bg-white border-b-2 border-gray-200">
+        <!-- Logo Section -->
+        <div class="flex items-center">
+            <img src="/IMG/Leonardo_Phoenix_09_Design_a_professional_and_elegant_logo_and_3-removebg-preview.png" 
+                 alt="Logo" class="w-[200px] h-[150px] lg:w-[100px] lg:h-[100px]">
+            <div class="ml-4 hidden lg:block">
+                <h1 class="text-xl font-bold text-blue-900">RAUDA COLLEGE OF HEALTH SCIENCE KANO LTD</h1>
+                <p class="text-sm text-gray-600 font-semibold">Empowering Future Healthcare Leaders</p>
+            </div>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav id="navbar" class="hidden md:flex items-center">
+          <ul class="flex gap-6 text-blue-900 font-medium">
+            <li><a href="#" class="hover:text-red-500">Home</a></li>
+            <li><a href="#" class="hover:text-red-500">About Us</a></li>
+            <li><a href="#" class="hover:text-red-500">Contact Us</a></li>
+        
+            <li class="relative group">
+              <button
+                id="dropdownToggle"
+                class="hover:text-blue-400 focus:outline-none"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Academics⬇️
+              </button>
+              <!-- Dropdown Menu -->
+              <ul
+                id="dropdownMenu"
+                class="absolute hidden z-20 mt-2 bg-white rounded shadow-lg p-3 w-[130px] mr-5 group-hover:block"
+              >
+                <li><a href="#" class="block px-4 py-2 text-blue-900 hover:text-red-500">News & Events</a></li>
+                <li><a href="#" class="block px-4 py-2 text-blue-900 hover:text-red-500">Gallery</a></li>
+                <li><a href="#" class="block px-4 py-2 text-blue-900 hover:text-red-500">Careers</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        
+        <div class="md:hidden">
+            <button id="menu-toggle" class="w-[40px] h-[40px] focus:outline-none">
+                <img src="/IMG/menu.png" alt="Menu Icon">
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Nav Menu -->
+    <nav id="mobile-nav" class="nav-hidden bg-white border-t-2 border-gray-200">
+        <ul class="flex flex-col gap-4 p-4 text-blue-900 font-medium">
+            <li><a href="#" class="hover:text-red-500">Home</a></li>
+            <li><a href="#" class="hover:text-red-500">About Us</a></li>
+            <li><a href="#" class="hover:text-red-500">Academics</a></li>
+            <li><a href="#" class="hover:text-red-500">Admissions</a></li>
+            <li><a href="#" class="hover:text-red-500">News & Events</a></li>
+            <li><a href="#" class="hover:text-red-500">Gallery</a></li>
+            <li><a href="#" class="hover:text-red-500">Careers</a></li>
+            <li><a href="#" class="hover:text-red-500">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <section
+  class="relative w-full h-[500px] bg-cover bg-center flex items-center justify-center p-4"
+  style="background-image: url('/IMG/Leonardo_Phoenix_09_A_modern_college_of_health_science_buildin_0.jpg');"
+>
+<div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+  <div class="text-center text-white relative z-10">
+    <!-- Main Heading -->
+    <h1 class="text-4xl font-bold drop-shadow-md text-gray-200">
+        RAUDA COLLEGE OF HEALTH SCIENCE KANO LTD
+    </h1>
+
+    <p class="text-lg font-medium mt-4 drop-shadow-md text-white">
+      Unlock Your Future in Healthcare!.
+    </p>
+
+    <a
+      href="#"
+      class="mt-6 inline-block bg-red-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-red-700"
+    >
+      Apply Now →
+    </a>
+  </div>
+</section>
+
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center items-center p-4">
+    <!-- Card 1 -->
+    <div class="h-[150px] bg-gray-200  rounded-lg shadow-lg">
+      <div class="flex flex-col justify-center items-center h-full text-center p-5">
+        <img src="/IMG/graduate.png" alt="" class="w-[40px] h-[40px] mb-2">
+        <h2 class="font-bold text-lg">Application</h2>
+        <p class="text-sm mb-2">Admission Now Open For 2024/2025</p>
+        <a href="#" class="text-blue-700 hover:underline hover:text-red-500">Click to Apply Now</a>
+      </div>
+    </div>
+  
+    <!-- Card 2 -->
+    <div class="h-[150px] bg-gray-200 rounded-lg shadow-lg ">
+      <div class="flex flex-col justify-center items-center h-full text-center p-5">
+        <img src="/IMG/graduation.png" alt="" class="w-[40px] h-[40px] mb-2">
+        <h2 class="font-bold text-lg">Graduation</h2>
+        <p class="text-sm mb-2">Celebrate Academic Success</p>
+        <a href="#" class="text-blue-700 hover:underline hover:text-red-500">Learn More</a>
+      </div>
+    </div>
+  
+    <!-- Card 3 -->
+    <div class="h-[150px] bg-gray-200 rounded-lg shadow-lg">
+      <div class="flex flex-col justify-center items-center h-full text-center p-5">
+        <img src="/IMG/exclamation.png" alt="" class="w-[40px] h-[40px] mb-2">
+        <h2 class="font-bold text-lg">Notice</h2>
+        <p class="text-sm mb-2">Important Updates Available</p>
+        <a href="#" class="text-blue-700 hover:underline hover:text-red-500">Check Updates</a>
+      </div>
+    </div>
+  
+    <!-- Card 4 -->
+    <div class="h-[150px] bg-gray-200 rounded-lg shadow-lg">
+      <div class="flex flex-col justify-center items-center h-full text-center p-5">
+        <img src="/IMG/exclamation.png" alt="" class="w-[40px] h-[40px] mb-2">
+        <h2 class="font-bold text-lg">Information</h2>
+        <p class="text-sm mb-2">Stay Informed About Us</p>
+        <a href="#" class="text-blue-700 hover:underline hover:text-red-500">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <section class=" relative py-8 px-4 sm:py-10 sm:px-6 lg:py-14 lg:px-8">
+    <div class="absolute inset-0 opacity-15 bg-cover bg-center" style="background-image: url('/IMG/Leonardo_Phoenix_09_A_modern_college_of_health_science_buildin_2.jpg')"></div>
+    <div class="max-w-4xl mx-auto text-center">
+      <!-- Title -->
+      <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-700 mb-6">
+        Welcome to RAUDA COLLEGE OF HEALTH SCIENCE KANO LTD
+      </h1>
+  
+      <!-- Description -->
+      <p class="text-sm sm:text-base md:text-lg text-gray-900 leading-relaxed mb-4">
+        Rauda College Of Health Science Kano LTD is a private institution established to meet the increasing challenges of our educational system in Nigeria.
+      </p>
+      <p class="text-sm sm:text-base md:text-lg text-gray-900 leading-relaxed mb-4">
+        The College is located at its Permanent Site situated at Rauda College Of Health Science KANO LTD's headquarters at Behind Kangon Shekarau, Rangza Quarters, KANO.
+      </p>
+      <p class="text-sm sm:text-base md:text-lg text-gray-900 leading-relaxed mb-4">
+        Our Vision goes beyond producing job seekers. We aim to train job creators, entrepreneurs, and innovators who will revolutionize the healthcare industry. Our programs are designed to equip students with the skills, knowledge, and mindset to start their own businesses, create jobs, and drive economic growth.
+      </p>
+      <p class="text-sm sm:text-base md:text-lg text-gray-900 leading-relaxed mb-6">
+        Join us in shaping the future of healthcare in Nigeria. Apply now and become a part of our vision to transform lives and communities!
+      </p>
+  
+      <!-- Button -->
+      <a
+      href="#"
+      class="mt-6 inline-block bg-red-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-red-700"
+    >
+      Read More →
+    </a>
+    </div>
+  </section>
+  
+  
+  <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-center items-center p-4">
+    <!-- Card Template -->
+    <div class="h-auto bg-gray-200 rounded-lg shadow-lg">
+      <div class="flex flex-col justify-between items-center h-full text-center text-gray-900 p-6">
+        <h2 class="font-bold text-lg sm:text-xl text-blue-700 mb-4">
+          COMMUNITY HEALTH <br> EXTENSION WORKS
+        </h2>
+        <p class="text-sm sm:text-base leading-relaxed mb-4">
+          This school offers courses in community health extension work. The courses are designed to train students on how to provide basic health care services to people in rural communities.
+        </p>
+        <a href="#" class="text-blue-700 hover:underline hover:text-red-500">
+          Click to Apply Now
+        </a>
+      </div>
+    </div>
+  
+  
+    <div class="h-auto bg-gray-200 rounded-lg shadow-lg">
+      <div class="flex flex-col justify-between items-center h-full text-center text-gray-900 p-6">
+        <h2 class="font-bold text-lg sm:text-xl text-blue-700 mb-4">
+          COMMUNITY HEALTH <br> EXTENSION WORKS
+        </h2>
+        <p class="text-sm sm:text-base leading-relaxed mb-4">
+          This school offers courses in community health extension work. The courses are designed to train students on how to provide basic health care services to people in rural communities.
+        </p>
+        <a href="#" class="text-blue-700 hover:underline hover:text-red-500">
+          Click to Apply Now
+        </a>
+      </div>
+    </div>
+  
+    <!-- Card 3 -->
+    <div class="h-auto bg-gray-200 rounded-lg shadow-lg">
+      <div class="flex flex-col justify-between items-center h-full text-center text-gray-900 p-6">
+        <h2 class="font-bold text-lg sm:text-xl text-blue-700 mb-4">
+          COMMUNITY HEALTH <br> EXTENSION WORKS
+        </h2>
+        <p class="text-sm sm:text-base leading-relaxed mb-4">
+          This school offers courses in community health extension work. The courses are designed to train students on how to provide basic health care services to people in rural communities.
+        </p>
+        <a href="#" class="text-blue-700 hover:underline hover:text-red-500">
+          Click to Apply Now
+        </a>
+      </div>
+    </div>
+  
+    <!-- Card 4 -->
+    <div class="h-auto bg-gray-200 rounded-lg shadow-lg">
+      <div class="flex flex-col justify-between items-center h-full text-center text-gray-900 p-6">
+        <h2 class="font-bold text-lg sm:text-xl text-blue-700 mb-4">
+          COMMUNITY HEALTH <br> EXTENSION WORKS
+        </h2>
+        <p class="text-sm sm:text-base leading-relaxed mb-4">
+          This school offers courses in community health extension work. The courses are designed to train students on how to provide basic health care services to people in rural communities.
+        </p>
+        <a href="#" class="text-blue-700 hover:underline hover:text-red-500">
+          Click to Apply Now
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="bg-gray-100 p-4">
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-gray-200 rounded-lg shadow-lg overflow-hidden">
+          <img src="/IMG/Leonardo_Phoenix_09_A_modern_college_of_health_science_buildin_2.jpg" alt="College Entrance" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex items-center text-sm text-gray-900 mb-2">
+              <span class="flex items-center gap-1"><i class="far fa-clock"></i> July 21, 2024</span>
+              <span class="mx-2">•</span>
+              <span class="flex items-center gap-1"><i class="fas fa-tag"></i> Admission</span>
+            </div>
+            <h3 class="text-lg font-bold text-blue-800 mb-2">Admission Now Open for 2024/2025</h3>
+            <p class="text-sm text-gray-900 mb-4">
+              The College authority hereby invites suitably qualified candidates who desire to be admitted to any of the programmes run by the college to apply for the 2024/2025.
+            </p>
+            <a href="#" class="text-blue-600 font-semibold flex items-center gap-1 hover:underline hover:text-red-500">Read More →</a>
+          </div>
+        </div>
+        
+        <div class="bg-gray-200 rounded-lg shadow-lg overflow-hidden">
+          <img src="/IMG/Leonardo_Phoenix_09_A_modern_college_of_health_science_buildin_2.jpg" alt="College Entrance" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex items-center text-sm text-gray-900 mb-2">
+              <span class="flex items-center gap-1"><i class="far fa-clock"></i> July 21, 2024</span>
+              <span class="mx-2">•</span>
+              <span class="flex items-center gap-1"><i class="fas fa-tag"></i> Admission</span>
+            </div>
+            <h3 class="text-lg font-bold text-blue-800 mb-2">Admission Now Open for 2024/2025</h3>
+            <p class="text-sm text-gray-900 mb-4">
+              The College authority hereby invites suitably qualified candidates who desire to be admitted to any of the programmes run by the college to apply for the 2024/2025.
+            </p>
+            <a href="#" class="text-blue-600 font-semibold flex items-center gap-1 hover:underline hover:text-red-500">Read More →</a>
+          </div>
+        </div>
+
+        <div class="bg-gray-200 rounded-lg shadow-lg overflow-hidden">
+          <img src="/IMG/Leonardo_Phoenix_09_A_modern_college_of_health_science_buildin_2.jpg" alt="College Entrance" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex items-center text-sm text-gray-900 mb-2">
+              <span class="flex items-center gap-1"><i class="far fa-clock"></i> July 21, 2024</span>
+              <span class="mx-2">•</span>
+              <span class="flex items-center gap-1"><i class="fas fa-tag"></i> Admission</span>
+            </div>
+            <h3 class="text-lg font-bold text-blue-800 mb-2">Admission Now Open for 2024/2025</h3>
+            <p class="text-sm text-gray-900 mb-4">
+              The College authority hereby invites suitably qualified candidates who desire to be admitted to any of the programmes run by the college to apply for the 2024/2025.
+            </p>
+            <a href="#" class="text-blue-600 font-semibold flex items-center gap-1 hover:underline hover:text-red-500">Read More →</a>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+  <footer class="bg-blue-900 text-white py-10">
+    <div class="container mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
+      <!-- Logo and About Section -->
+      <div>
+        <img src="/IMG/Leonardo_Phoenix_09_Design_a_professional_and_elegant_logo_and_3-removebg-preview.png" alt="College Logo" class="w-32 mb-4">
+        <p class="text-sm">
+          Ethical College of Health Sciences and Technology is a private institution established to meet the increasing challenges of our educational system in Nigeria.
+        </p>
+      </div>
+      <!-- Quick Links -->
+      <div>
+        <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:underline hover:text-red-500">Office of the Provost</a></li>
+          <li><a href="#" class="hover:underline hover:text-red-500">The College</a></li>
+          <li><a href="#" class="hover:underline hover:text-red-500">Principal Officers</a></li>
+          <li><a href="#" class="hover:underline hover:text-red-500">Governing Council</a></li>
+          <li><a href="#" class="hover:underline hover:text-red-500">Our Objectives</a></li>
+        </ul>
+      </div>
+      <!-- Admissions -->
+      <div>
+        <h3 class="text-lg font-bold mb-4">Admissions</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:underline hover:text-red-500">How to Apply</a></li>
+          <li><a href="#" class="hover:underline hover:text-red-500">Apply for Admission</a></li>
+          <li><a href="#" class="hover:underline hover:text-red-500">Students' Portal</a></li>
+          <li><a href="#" class="hover:underline hover:text-red-500">Library</a></li>
+          <li><a href="#" class="hover:underline hover:text-red-500">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Academics -->
+      <div>
+        <h3 class="text-lg font-bold mb-4">Academics</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:underline hover:text-red-500">Community Health Extension Works</a></li>
+          <li><a href="#" class="hover:underline hover:text-red-500">Medical Laboratory Technology</a></li>
+          <li><a href="#" class="hover:underline hover:text-red-500">Pharmacology Technology</a></li>
+          <li><a href="#" class="hover:underline hover:text-red-500">Health Information Management</a></li>
+          <li><a href="#" class="hover:underline hover:text-red-500">Environmental Health Science</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-8 text-center text-sm border-t border-gray-700 pt-4">
+      <p>Follow Us On</p>
+      <div class="flex justify-center gap-4 mt-2">
+        <a href="#" class="hover:text-gray-400"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="hover:text-gray-400"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="hover:text-gray-400"><i class="fab fa-youtube"></i></a>
+        <a href="#" class="hover:text-gray-400"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p class="mt-4">
+        Copyright © 2025 Ethical College of Health Sciences and Technology, Ilorin. Developed by <a href="#" class="text-blue-500 hover:underline">Plat Tech</a>.
+      </p>
+    </div>
+  </footer>
+  
+
+
+
+
+
+
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileNav = document.getElementById('mobile-nav');
+
+    menuToggle.addEventListener('click', () => {
+        mobileNav.classList.toggle('nav-hidden');
+        mobileNav.classList.toggle('nav-visible');
+    });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const dropdownToggle = document.getElementById("dropdownToggle");
+    const dropdownMenu = document.getElementById("dropdownMenu");
+
+    // Toggle the dropdown menu on click
+    dropdownToggle.addEventListener("click", () => {
+        dropdownMenu.classList.toggle("hidden");
+    });
+
+    // Optional: Close the dropdown when clicking outside
+    document.addEventListener("click", (event) => {
+        if (!dropdownToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
+            dropdownMenu.classList.add("hidden");
+        }
+    });
+});
+
+</script>
+</body>
+</html>
